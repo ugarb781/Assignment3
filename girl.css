@@ -1,0 +1,141 @@
+body{
+  background-color: rgb(193, 157, 30);
+  color: white;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+  font-size: 15px;
+  line-height: 15px;
+  margin: 0;
+}
+
+a{
+  text-decoration: overline underline;
+  color: white;
+  font-weight: bold;
+  font-family: 'IM Fell French Canon', serif;
+  text-transform: uppercase;
+  font-size: 20px;
+
+
+}
+
+a:hover{
+  color: rgb(66, 45, 13);
+}
+.container{
+  position: absolute;
+  left: calc(50% - 500px);
+  width: 1000px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.leaf{
+  position: absolute;
+  top: 700px;
+  left: 120px;
+  background-color: rgb(192, 237, 202);
+  height: 50px;
+  width: 50px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  transform: scaleX(-1);
+}
+
+#leaf2{
+  top: 700px;
+  left: 180px;
+  transform: scaleX(1);
+}
+
+.stem{
+  position: absolute;
+  left: 172px;
+  top: 640px;
+  background-color: rgb(95, 156, 139);
+  height: 200px;
+  width: 6px;
+  animation-name: grow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.petals{
+  position: absolute;
+  top: 600px;
+  left: 140px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 250px;
+  border-bottom-right-radius: 10px;
+  height: 70px;
+  width: 70px;
+  background-color:rgb(245, 239, 165);
+  transform: rotate(135deg);
+}
+
+.flower{
+  position:absolute;
+  top: -45px;
+}
+
+#flower2{
+  position: absolute;
+  top: 750px;
+}
+
+#flower3{
+  position: absolute;
+  top: 1280px;
+}
+
+#petals3{
+  animation-name: dark;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes grow {
+from{ height:200px;}
+  to{height: 300px;}
+}
+
+@keyframes dark {
+  from {background-color:rgb(245, 239, 165);}
+    to{background-color:black; transform:}
+}
+
+.girl {
+  text-align: right;
+}
+@media screen and (max-width: 600px) {
+  body{
+  background-color: #e98181;
+font-size: 13px;
+line-height: normal;
+  }
+
+  .container{
+    left: calc(50% - 250px);
+    padding: 5% 5% 5% 5%;
+    width: 500px;
+  }
+
+  .flower{
+    top: -600px;
+    left: 210px;
+  }
+
+  #flower2{
+    top: 300px;
+  }
+
+  #flower3{
+    top: 1700px;
+  }
+
+  .link{
+    position: absolute;
+    top: 2870px;
+  }
+}

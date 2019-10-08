@@ -1,0 +1,91 @@
+body {
+  margin: 0px;
+  background-color: white;
+  font-family: courier;
+  color:#598198;
+}
+
+span {
+  color: #e6abc1;
+  text-decoration: underline;
+  text-decoration-style: wavy ;
+}
+
+.container {
+  position: relative;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: courier;
+  right: 65px;
+}
+.sun {
+  position: fixed;
+  width: 120px;
+  height: 120px;
+  background-color:#e6abc1;
+  left: 500px;
+  top: 60px;
+  border-radius: 100%;
+  transition: background-color 3s ease-in-out;
+}
+
+.line {
+  position: fixed;
+  border-bottom: 5px solid #e6abc1;
+  height: 0;
+  width: 100%;
+  top: 330px;
+}
+
+.wall {
+  position: fixed;
+  background-color:#e6abc1;
+  width: 100px;
+  height:50px;
+  left: 400px;
+  top: 300px;
+}
+
+.window {
+  position:fixed;
+  background-color: white;
+  width:20px;
+  height:20px;
+  left: 413px;
+  top: 310px;
+}
+
+.door {
+  position:fixed;
+  border: solid white 2px;
+  width: 10px;
+  height:30px;
+  left: 465px;
+  top: 317px;
+}
+
+.roof {
+  position: fixed;
+  border-bottom: 40px solid #598198;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  height: 0;
+  width: 55px;
+  left:392px;
+  top:260px;
+}
+
+.sun:hover{
+  transition: background-color.5s;
+  background-color: transparent;
+}
+
+.link {
+  position:relative;
+  text-align: center;
+  top: 40px;
+  right:2px;
+  font-size: 20px;
+  color:#e6abc1;
+  text-decoration: none;
+}

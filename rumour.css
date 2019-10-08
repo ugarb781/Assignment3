@@ -1,0 +1,165 @@
+body {
+  font-family: times;
+  font-size: 16px;
+  margin: 0px;
+}
+
+span{
+  font-size: 40px;
+  font-family: 'Dawning of a New Day', cursive;
+}
+
+.line {
+  position: fixed;
+  border-bottom: 5px solid white;
+  height: 0;
+  width: 100%;
+  top: 430px;
+}
+.container {
+  margin: 70px;
+  /*surrounds padding and content*/
+  /*adding space between border and content*/
+  padding: 20px;
+  background-image: linear-gradient(#e99181, white);
+}
+
+.title {
+  position: relative;
+  top: 50px;
+  right: 110px;
+}
+.sun{
+position: fixed;
+width: 150px;
+height: 150px;
+left: calc(50% - 75px);
+border-radius: 100%;
+
+/*none| h-offset v-offset blur offset*/
+box-shadow: 8px 4px 20px 8px white;
+}
+
+.town{
+  position: relative;
+  left: 30px;
+}
+
+.house {
+  position: relative;
+  bottom: 140px;
+
+}
+.wall {
+  position: absolute;
+  background-color:white;
+  width: 100px;
+  height:50px;
+  left: 400px;
+  top: 300px;
+}
+
+.window {
+  position:absolute;
+  background-color: #e99181;
+  width:20px;
+  height:20px;
+  left: 413px;
+  top: 310px;
+}
+
+.door {
+  position:absolute;
+  border: solid #e99181 2px;
+  width: 10px;
+  height:30px;
+  left: 465px;
+  top: 317px;
+}
+
+.roof {
+  position: absolute;
+  border-bottom: 40px solid white;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  height: 0;
+  width: 55px;
+  left:392px;
+  top:260px;
+}
+
+.text-container{
+  position: relative;
+  margin: 40px;
+  padding: 20px;
+  right: 80px;
+
+}
+
+#house2{
+  left: 140px;
+}
+
+#house3{
+  left:280px;
+}
+
+#house4 {
+  left: 560px;
+}
+
+#house5{
+top:1030px;
+}
+
+#house5 .window{
+  background-color: #f6cec8;
+}
+
+#house5 .door {
+  border: solid #f6cec8 2px;
+}
+
+#house6{
+  top:1030px;
+  left: 560px;
+}
+
+#house6 .window{
+  background-color: #f6cec8;
+}
+
+#house6 .door {
+  border: solid #f6cec8 2px;
+}
+
+.town2 {
+  position: relative;
+  top: 1710px;
+  left: 560px;
+}
+
+#house7{
+  left: 140px;
+}
+
+#house8{
+  left:280px;
+}
+
+#house7 .window {
+  background-color: #fae5e1;
+}
+
+#house7 .door {
+  border: solid #fae5e1 2px;
+}
+
+
+#house4 .window:hover {
+  background-color: #ffd029;
+}
+
+#house7 .window:hover{
+  background-color: #ffd029;
+}

@@ -1,0 +1,133 @@
+body{
+  background-color: rgb(60, 35, 134);
+  color: black;
+  font-family: Helvetica;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(60, 35, 134);
+}
+
+a:hover{
+  color: rgb(226, 174, 43);
+  text-decoration: overline underline;
+}
+.first{
+  position: relative;
+  left: calc(50% - 350px);
+  background-color: white;
+  width: 700px;
+  height: 250px;
+  margin-left:
+  padding: 6% 6% 6% 6%;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.remember{
+  position: relative;
+  top: 60px;
+  left: 50px;
+}
+
+.lifetime {
+  position: relative;
+  text-align: right;
+  right: 40px;
+}
+
+.boy{
+  position: relative;
+  left: 40%;
+  bottom: 230px;
+}
+
+#girl{
+  position: absolute;
+  top: 45%;
+  left:290px;
+}
+
+.content{
+  position: absolute;
+  top: 20px;
+  left: 10%;
+}
+
+.weboth{
+  letter-spacing: 3px;
+  line-height: 45px;
+}
+
+#young:hover{
+  color: rgb(242, 94, 196);
+  text-transform: uppercase;
+  font-weight: normal;
+    font-size: 20px;
+}
+
+#yet:hover{
+  color: red;
+  text-transform: lowercase;
+  font-weight: normal;
+    font-size: 40px;
+}
+
+#come:hover{
+  color: lightblue;
+  text-transform: lowercase;
+  font-weight: normal;
+  font-size: 20px;
+
+
+}
+
+#imsure{
+  position:absolute;
+  top: 70px;
+}
+
+#smiled{
+  position:absolute;
+  top: 70px;
+  left: 230px;
+  text-align: center;
+}
+
+#lastconvo{
+  position:absolute;
+  top: 70px;
+}
+
+#goodbye{
+  position:absolute;
+  top: 70px;
+
+}
+
+@media screen and (max-width: 600px) {
+body{
+  font-size: 10px;
+  letter-spacing: normal;
+}
+
+.first{
+  left: calc(50% - 150px);
+  width: 300px;
+}
+
+.lifetime{
+  top: 60px;
+}
+
+.boy{
+  top: -180px;
+  left: 90px;
+  font-size: 9px;
+}
+#girl{
+  left: 100px;
+}
+}

@@ -1,0 +1,176 @@
+body{
+  margin: 0px;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 30px;
+}
+
+span {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+}
+
+a:hover {
+  color: pink;
+}
+
+.container {
+  margin: 70px;
+  padding: 20px;
+}
+.sunset{
+position: relative;
+left: calc(50% - 100px);
+top: 5px;
+width: 200px;
+height: 100px;
+background-image: linear-gradient(yellow, gold);
+border-top-left-radius: 200px;
+border-top-right-radius: 200px;
+border-bottom: 0;
+}
+
+.line {
+  position: relative;
+  left: calc(50% - 165px);
+  border-bottom: 5px solid gold;
+  height: 0;
+  width: 350px;
+  top: 5px
+}
+
+#line2{
+  top: 10px;
+}
+
+#line2{
+  top: 20px;
+}
+
+.lifetime {
+  position:relative;
+  left: 1200px;
+}
+
+.know {
+  position: relative;
+  bottom: 30px;
+  left: 1200px;
+}
+
+.spectrum {
+  position: relative;
+  left:calc(50% - 200px);
+  bottom: 350px;
+  background-image: linear-gradient(to right,pink, lightblue);
+  border: 5px solid pink;
+  width: 400px;
+  height: 400px;
+}
+
+.tocome{
+  position: relative;
+  left: 1200px;
+  top: 100px;
+}
+
+.mistake{
+  position: relative;
+  left: 10px;
+  top: 5px;
+  width: 200px;
+  height: 100px;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  border: 5px solid lightgrey;
+  border-bottom: 0;
+}
+
+.complete {
+  position: relative;
+  left: 1200px;
+  top: 150px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 5px solid black;
+
+}
+
+.textgroup{
+  position: relative;
+  right: 500px;
+  text-align: right;
+}
+
+.lastconversation {
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  background-image: linear-gradient(lightgrey, white);
+  border: 5px solid white;
+}
+
+.textgroup2{
+  position: relative;
+  left: 250px;
+  bottom: 200px;
+}
+
+.door {
+  position: relative;
+  left: 800px;
+  background-image: linear-gradient(to right,pink,pink,white,white, white);
+  border: 5px solid pink;
+  width: 500px;
+  height: 400px;
+}
+
+.textgroup3 {
+  position: relative;
+  left: 980px;
+  bottom: 350px;
+}
+
+.whispers {
+  font-size: 18px;
+  color:black;
+  padding: 25px;
+  background-image: linear-gradient(grey, white, white);
+  border-radius: 100%;
+  height: 100px;
+  width:100px;
+}
+
+#whispers1{
+  position: relative;
+  left: 1000px;
+}
+
+#whispers2{
+  position: relative;
+  left: 300px;
+
+}
+
+#whispers3{
+  position:relative;
+  left: 600px;
+}
+
+.textgroup4{
+  color:black;
+  margin-left: 25px;
+  padding: 70px;
+  background-image: linear-gradient(lightgrey, white,white);
+  border-radius: 100%;
+  height: 200px;
+  width:200px;
+  position: relative;
+  left: 850px;
+}

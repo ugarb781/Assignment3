@@ -1,0 +1,193 @@
+body{
+  font-family: courier, monospace;
+  margin: 0;
+}
+
+span{
+  font-weight: bold;
+  color: red;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+span:hover{
+  animation-name: highlighter;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.lines {
+  position:relative;
+  bottom: 135px;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  width: 2px;
+  float: left;
+  height: 1500px;
+  margin-left: 40px;
+  background-color: white;
+}
+
+h3{
+  position: relative;
+  top: 55px;
+  left: 40px;
+  margin-left: 10px;
+  color: red;
+  font-size: 40px;
+  text-decoration: underline;
+  width: 350px;
+  text-align: center;
+}
+h3:hover{
+  animation-name: highlighter;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
+
+.blueline {
+  position: relative;
+  top: 30px;
+  height:3px;
+  width: 100%;
+  background-color: rgb(80, 185, 224);
+}
+
+.notes {
+  position: relative;
+  left: 40px;
+  top: -65px;
+  box-sizing: border-box;
+}
+
+#blueline1{
+  position: relative;
+  top: 75px;
+}
+
+#blueline2{
+  position: relative;
+  top: 115px;
+}
+
+#blueline3{
+  position: relative;
+  top: 155px;
+}
+
+#blueline4{
+  position: relative;
+  top: 195px;
+}
+
+#blueline5{
+  position: relative;
+  top: 240px;
+}
+
+#blueline6{
+  position: relative;
+  top: 285px;
+}
+
+#blueline7{
+  position: relative;
+  top: 330px;
+}
+
+#blueline8{
+  position: relative;
+  top: 380px;
+}
+
+#blueline9{
+  position: relative;
+  top: 430px;
+}
+
+#blueline10{
+  position: relative;
+  top: 490px;
+}
+
+#blueline11{
+  position: relative;
+  top: 540px;
+}
+#boy {
+  line-height: 50px;
+}
+
+#know{
+  position: relative;
+  top: 5px;
+}
+
+#girl{
+  position: relative;
+  top: 10px;
+}
+
+#mistakes{
+  top: 10px;
+  line-height: 60px;
+  text-decoration: red line-through double;
+  font-weight: bold;
+}
+
+.young{
+  position: relative;
+  top: 20px;
+}
+
+#stripes2 {
+  position:relative;
+  top: 550px;
+}
+
+.years{
+  top: 10px;
+  line-height: 60px;
+  text-decoration: red line-through double;
+  font-weight: bold;
+}
+
+#town{
+  color: #0cb336;
+  font-weight: bold;
+}
+
+#stripes3{
+  visibility: hidden;
+}
+
+@keyframes highlighter {
+from{background-color: white;}
+  to{background-color: rgba(255, 230, 0, 0.9);}
+}
+
+
+@media screen and (max-width: 600px) {
+  body{
+    font-size: 15px;
+  }
+.notes{
+  top: -60px;
+  padding: 5% 5% 5% 5%;
+  width: 370px;
+}
+
+#stripes3{
+  position: relative;
+  top: 1100px;
+  visibility: visible;
+}
+
+.lines{
+  height: 1900px
+}
+}

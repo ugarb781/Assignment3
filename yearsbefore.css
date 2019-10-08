@@ -1,0 +1,132 @@
+body{
+  margin:0;
+  background-color: black;
+  color: white;
+  font-family: 'Coming Soon', cursive;
+  letter-spacing: 5px;
+  font-weight: bolder;
+}
+.dots{
+  display: visible;
+}
+#true{
+  color: white;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.container {
+
+}
+span {
+  text-decoration: underline;
+}
+
+#lifetime{
+  text-transform: lowercase;
+}
+
+.mistakes {
+  text-align: right;
+  line-height: 40px;
+  font-size: 12px;
+}
+
+.imagine{
+  font-size: 12px;
+}
+
+.fallingcircle{
+  position:absolute;
+  top: 60%;
+  left: 2%;
+  background-color: white;
+  height: 70px;
+  width: 70px;
+  border-radius:100%;
+  animation-name: falling;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-delay: 2s;
+}
+
+#fallingcircle2{
+  top: 1000px;
+  animation-name: falling2;
+}
+
+#fallingcircle3{
+  top: 1300px;
+  animation-name:falling3;
+}
+
+#fallingcircle4{
+  top: 2500px;
+  animation-name:falling4;
+}
+
+#fallingcircle5{
+  top: 2500px;
+  animation-name:falling5;
+}
+
+@keyframes falling {
+  from{background-color:white;}
+  to{background-color:black; left: 60%; top: 1100px; height: 20px; width: 20px;}
+}
+
+@keyframes falling2 {
+  from{background-color:white;}
+  to{background-color:black; left: 60%; top: 1500px; height: 20px; width: 20px;}
+}
+@keyframes falling3 {
+  from{background-color:white;}
+  to{background-color:black; left: 60%; top: 2000px; height: 20px; width: 20px;}
+}
+
+@keyframes falling4 {
+  from{background-color:white;}
+  to{background-color:black; left: 80%; top: 3500px; height: 20px; width: 20px;}
+}
+
+@keyframes falling5 {
+  from{background-color:white;}
+  to{background-color:black; left: 80%; top: 4500px; height: 20px; width: 20px;}
+}
+
+@media screen and (max-width: 600px) {
+body{
+  font-size: 10px;
+  letter-spacing: normal;
+}
+
+.mistakes{
+  font-size: 10px;
+  line-height: 14px;
+}
+ul{
+  padding: 6% 6% 6% 6%;
+}
+
+ul li{
+  color: yellow;
+  font-style: italic;
+}
+
+p{
+  padding: 2% 2% 2% 2%;
+  font-size: 12px;
+  text-align: center;
+  border: solid white 1px;
+  box-sizing: border-box;
+  width: 400px;
+  height: 40px;
+}
+
+#top{
+  position: relative;
+  left: 50px;
+}
+
+}

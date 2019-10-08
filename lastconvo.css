@@ -1,0 +1,171 @@
+body {
+  background-color: white;
+  font-family: arial;
+  font-size: 30px;
+  color:white;
+  margin: 0px;
+}
+.container {
+  position:relative;
+  left:50px;
+}
+.circle {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  left: calc(50% - 65px);
+  bottom: 20px;
+  border-radius: 100%;
+  border: solid grey 5px;
+  }
+
+.circle:hover {
+  border: solid #616161 5px;
+  background-color: #f2f2f2;
+}
+.leftmessage {
+  position: relative;
+  color: black;
+  text-align: left;
+  padding: 40px;
+  background-color:#e6e6ea;
+  border-radius: 70px;
+  height:15px;
+  width: 500px;
+  left: 70px;
+}
+
+.rightmessage {
+  position: relative;
+  text-align: left;
+  padding: 40px;
+  background-color: #51a2f2;
+  border-radius: 70px;
+  height: 15px;
+  width: 500px;
+  left: 1000px;
+}
+
+#leftmessage1{
+  width:330px;
+}
+
+#rightmessage1{
+  width: 210px;
+  left: 1200px;
+
+}
+
+#leftmessage2{
+  width:220px;
+}
+
+#rightmessage2{
+  width: 350px;
+  left: 1065px;
+}
+
+#leftmessage3{
+  width: 400px;
+}
+
+#rightmessage3{
+  width: 320px;
+  left: 1100px;
+}
+
+#leftmessage4{
+  width:220px;
+}
+#rightmessage4{
+  width: 280px;
+  left: 1140px;
+}
+#leftmessage5{
+  height:55px;
+}
+
+#rightmessage5{
+  width:400px;
+  left: 1030px;
+}
+
+#leftmessage6{
+  width: 250px;
+}
+
+#rightmessage6{
+  width: 420px;
+}
+
+#leftmessage7 {
+  width: 300px;
+}
+
+#rightmessage7 {
+  width: 320px;
+  left: 1100px;
+}
+
+#leftmessage8 {
+  width: 200px;
+}
+
+#rightmessage8{
+  width: 300px;
+  left: 1120px;
+}
+
+#leftmessage9{
+  width: 420px;
+}
+
+#rightmessage9{
+  width:370px;
+  left: 1060px;
+}
+#leftmessage10{
+  width: 400px;
+}
+
+#leftmessage11{
+  width:440px;
+}
+
+#leftmessage12 {
+  height:55px;
+}
+
+#leftmessage13 {
+  height:55px;
+}
+
+#leftmessage14{
+  width: 300px;
+}
+
+#leftmessage15 {
+  width: 250px;
+}
+
+#leftmessage16{
+  width:270px;
+}
+
+#leftmessage17 {
+  width: 300px;
+}
+
+#leftmessage18{
+  height: 55px;
+}
+
+#leftmessage19{
+  height: 55px;
+}
+
+@media screen and (max-width: 600px) {
+body{
+  background-color: black;
+}
+}
